@@ -49,12 +49,22 @@ var Player = function () {
   this.x = 2 * 101;
   this.y = 5 * 80;
 };
+Player.prototype.reachedWater = function () {
+  var scoreResult, scoreValue;
+  if (this.y === 0) {
+    scoreResult = $('#score-value');
+    scoreValue = window.parseInt(scoreResult.text());
+    scoreResult.text(++scoreValue);
+    this.isAlive = false;
+  }
+};
 Player.prototype.update = function () {
   if (!this.isAlive) {
     this.x = 2 * 101;
     this.y = 5 * 80;
     this.isAlive = true;
   }
+  this.reachedWater();
 };
 Player.prototype.render = function () {
   ctx.drawImage(Resources.get(this.sprite), this.x, this.y);
