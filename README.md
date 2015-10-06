@@ -8,13 +8,13 @@ I am motivated by the course to encourage this challenge. This way I can learn w
 
 ## Installation
 
-All you need to play the game is have the correct ambient to publish everything requested from the file index.html, and then run in the browser.
+All you need to play the game is have the correct ambient to publish everything requested from the file index.html.
 
-To serve files there are several options, nodejs / python / IIS or Apache.
+To serve files there are several options, nodejs / python / IIS or Apache...  and many others.
 
-This is an Apache configuration to serve the game, so you can see the game accesing to browser localhost.
+This is an Apache configuration to serve the game.
 
-#### Example for Linux Ubuntu:
+#### Example for Apache installation in Linux Ubuntu:
 You can setup your Apache server like this example to serve the game.
 
 Values between [] are values you have to complete.
@@ -39,9 +39,10 @@ Then modify the file 000-default.conf to serve your projects. Like the following
 </VirtualHost>
 ```
 
-Finally if you changed some config run restart to apache.
-
 Other option is just serving from www folder.
+
+Finally if you changed some configuration, then run restart to apache.
+
 
 ### Run the game
 
