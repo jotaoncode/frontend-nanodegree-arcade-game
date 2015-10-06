@@ -54,9 +54,11 @@ Instructions to run the game:
 ###### Example for Apache
   http://localhost/[The folder of your projects]/[The game folder]/index.html
 
-3- You can move the player with cursors ‘up’ ‘down’ ‘left’ ‘right’
+## Game Instructions
 
-4- To score you need to reach with your player, to the water field, without being catch by the bug.
+1- You can move the player with cursors ‘up’ ‘down’ ‘left’ ‘right’
+
+2- To score you need to reach with your player, to the water field, without being catch by the bug.
 
 ## API
 
