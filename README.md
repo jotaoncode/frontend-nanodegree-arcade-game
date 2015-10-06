@@ -14,11 +14,13 @@ To serve files there are several options, nodejs / python / IIS or Apache.
 
 This is an Apache configuration to serve the game, so you can see the game accesing to browser localhost.
 
-#### Example:
-You can setup your Apache server like this example to serve this game.
+#### Example for Linux Ubuntu:
+You can setup your Apache server like this example to serve the game.
 
 Values between [] are values you have to complete.
 
+First install apache from www.apache.org
+Then modify the file 000-default.conf to serve your projects. Like the following.
 ```xml
 <VirtualHost *:80>
         DocumentRoot /home/[Your User]/[The folder of your projects]
@@ -36,6 +38,7 @@ Values between [] are values you have to complete.
         </Directory>
 </VirtualHost>
 ```
+Other option is just serving from www folder.
 
 ## API
 
