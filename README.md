@@ -19,6 +19,7 @@ You can setup your Apache server like this example to serve this game.
 
 Values between [] are values you have to complete.
 
+```xml
 <VirtualHost *:80>
         DocumentRoot /home/[Your User]/[The folder of your projects]
         <Directory />
@@ -34,7 +35,7 @@ Values between [] are values you have to complete.
             Require all granted
         </Directory>
 </VirtualHost>
-
+```
 
 ## API
 
