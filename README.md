@@ -38,6 +38,9 @@ Then modify the file 000-default.conf to serve your projects. Like the following
         </Directory>
 </VirtualHost>
 ```
+
+Finally if you changed some config run restart to apache.
+
 Other option is just serving from www folder.
 
 ## API
