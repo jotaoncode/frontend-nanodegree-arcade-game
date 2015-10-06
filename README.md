@@ -49,7 +49,7 @@ Instructions to run the game:
 
 1- Open the browser.
 
-2- Access to the game through navigating to index.html, exposed in the way installed the game.
+2- Access to the game through navigating to index.html, this depends on the way you installed the game.
 
 ###### Example for Apache
   http://localhost/[The folder of your projects]/[The game folder]/index.html
