@@ -48,10 +48,14 @@ Other option is just serving from www folder.
 Instructions to run the game:
 
 1- Open the browser.
+
 2- Access to the game through navigating to index.html, exposed in the way installed the game.
+
 #### Example for Apache
   http://localhost/[The folder of your projects]/[The game folder]/index.html
+
 3- You can move the player with cursors ‘up’ ‘down’ ‘left’ ‘right’
+
 4- To score you need to reach with your player, to the water field, without being catch by the bug.
 
 ## API
