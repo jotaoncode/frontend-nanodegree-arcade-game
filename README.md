@@ -51,7 +51,7 @@ Instructions to run the game:
 
 2- Access to the game through navigating to index.html, exposed in the way installed the game.
 
-#### Example for Apache
+###### Example for Apache
   http://localhost/[The folder of your projects]/[The game folder]/index.html
 
 3- You can move the player with cursors ‘up’ ‘down’ ‘left’ ‘right’
